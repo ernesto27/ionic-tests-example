@@ -9,5 +9,10 @@ export class Page {
   getTitle() {
     return browser.getTitle();
   }
+
+  refresh(){
+    return browser.driver.sleep(500);
+    
+  }
   
 }
